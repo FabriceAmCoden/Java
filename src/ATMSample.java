@@ -21,18 +21,18 @@ public class ATMSample {
                 System.out.println("Sie haben " + deposit + "€ eingezahlt!");
             }
             if (selection == 2) {
-                System.out.println("Wieviel würden Sie gerne abheben?");
+                System.out.println("Wieviel möchten sie abheben?");
                 int withdraw = scanner.nextInt();
                 balance = balance - withdraw;
                 System.out.println("Sie haben " + withdraw + "€ abgehoben!");
             }
             if (selection == 3) {
-                System.out.println("Der Kontostand beträgt:" + balance + "€");
+                System.out.println("Kontostand beträgt:" + balance + "€");
             }
 
             if (selection == 4) {
                 isFinished = true;
-                System.out.println("Machine is stopping!");
+                System.out.println("Machine Stopp!");
             }
         }
     }
