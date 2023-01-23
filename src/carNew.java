@@ -28,7 +28,7 @@ public class carNew {
         System.out.println("I am driving");
 
     }
-ä
+
     public void doBreak() {
         this.speed = 0;
         System.out.println(speed + "km/h");
