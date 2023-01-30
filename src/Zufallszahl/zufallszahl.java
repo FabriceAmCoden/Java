@@ -1,3 +1,5 @@
+package Zufallszahl;
+
 import java.util.Random;
 
 public class zufallszahl {

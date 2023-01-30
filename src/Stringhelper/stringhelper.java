@@ -1,3 +1,5 @@
+package Stringhelper;
+
 public class stringhelper {
 
     public static boolean isPalindrome(String text){

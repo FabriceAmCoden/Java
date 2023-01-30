@@ -1,3 +1,5 @@
+package carold;
+
 public class carNew {
     private String serialNumber;
     private String colour;
@@ -7,12 +9,19 @@ public class carNew {
     private int speed;
 
 
+    public carNew(String serialNumber, String colour, int fueldConsumption, int tank, int speed) {
+        this.serialNumber = serialNumber;
+        this.colour = colour;
+        this.fueldConsumption = fueldConsumption;
+        this.tank = tank;
+        this.speed = speed;
+    }
 
     public void carNew(String serialnumber,
-                        String colour,
-                        int fueldConsumption,
-                        int tank,
-                        int speed) {
+                       String colour,
+                       int fueldConsumption,
+                       int tank,
+                       int speed) {
         this.serialNumber = serialNumber;
         String carNewr;
         this.colour = colour;

@@ -1,3 +1,5 @@
+package Automat;
+
 import java.util.Scanner;
 
 public class ATMSample {
