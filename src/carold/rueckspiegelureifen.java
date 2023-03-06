@@ -4,7 +4,7 @@ package carold;
 import oo.Car;
 
 public class rueckspiegelureifen {
-    public class Auto {
+    public Class Auto {
         private int anzahlRueckspiegel;
         private int anzahlReifen;
 
@@ -30,11 +30,13 @@ public class rueckspiegelureifen {
         }
 
         public static void main(String[] args) {
-            Auto meinAuto =  Car(2,4);
+            Auto meinAuto = Auto car(2,4);
             System.out.println("Anzahl Rückspiegel: " + meinAuto.getAnzahlRueckspiegel());
             System.out.println("Anzahl Reifen: " + meinAuto.getAnzahlReifen());
             meinAuto.fahre();
             meinAuto.bremse();
         }
     }
+
+
 }
