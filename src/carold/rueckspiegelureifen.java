@@ -1,7 +1,7 @@
 package carold;
 
 
-import oo.Car;
+
 
 public class rueckspiegelureifen {
     public Class Auto {
@@ -33,8 +33,8 @@ public class rueckspiegelureifen {
             Auto meinAuto = Auto car(2,4);
             System.out.println("Anzahl Rückspiegel: " + meinAuto.getAnzahlRueckspiegel());
             System.out.println("Anzahl Reifen: " + meinAuto.getAnzahlReifen());
-            meinAuto.fahre();
-            meinAuto.bremse();
+            meinAuto.drive();
+            meinAuto.break();
         }
     }
 

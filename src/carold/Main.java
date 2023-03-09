@@ -11,4 +11,7 @@ public class Main {
       c1.getTank();
 
     }
+    supercar t1 = new supercar (2, )
 }
+
+

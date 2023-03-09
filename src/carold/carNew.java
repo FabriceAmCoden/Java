@@ -23,7 +23,7 @@ public class carNew {
                        int tank,
                        int speed) {
         this.serialNumber = serialNumber;
-        String carNewr;
+        String carNew;
         this.colour = colour;
         this.fueldConsumption = fueldConsumption;
         this.setTank(tank);

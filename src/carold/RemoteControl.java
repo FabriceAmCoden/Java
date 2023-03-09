@@ -18,11 +18,11 @@ public class RemoteControl {
     public void turnOn() {
         battery1.drain(0.05);
         battery2.drain(0.05);
-        System.out.println("Consumer connected.");
+        System.out.println("Consumer connected");
     }
 
     public void turnOff() {
-        System.out.println("No consumer connected.");
+        System.out.println("No consumer connected");
     }
 }
 
